@@ -1,6 +1,7 @@
-pandas
+bayesian-optimization
 matplotlib
-numpy
-yellowbrick
+pandas
+random
 scikit-learn
 seaborn
+yellowbrick
