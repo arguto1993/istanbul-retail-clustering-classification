@@ -4,6 +4,8 @@
 
 This project implements a two-stage machine learning approach combining unsupervised clustering and supervised classification. The analysis was conducted using provided templates and follows specific criteria for both stages as part of the Dicoding Data Science Bootcamp (January 2025).
 
+![alt text](flowchart.jpg)
+
 ## Dataset Information
 
 The analysis uses the "[Customer Shopping Dataset - Retail Sales Data](https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset)" from Kaggle, which contains shopping information from 10 different shopping malls in Istanbul between 2021 and 2023.
@@ -26,10 +28,10 @@ The analysis uses the "[Customer Shopping Dataset - Retail Sales Data](https://w
 *   `clustering.ipynb`: Notebook for clustering analysis in Bahasa Indonesia
 *   `classification.ipynb`: Notebook for classification analysis in Bahasa Indonesia
 
-### Update: English Versions Available
+### Update: English Version Available
+
 *   `clustering_en.ipynb`: English version of the clustering analysis notebook
 *   `classification_en.ipynb`: English version of the classification analysis notebook
-
 
 ## Requirements & Criteria
 
@@ -37,54 +39,46 @@ The analysis uses the "[Customer Shopping Dataset - Retail Sales Data](https://w
 
 1.  **Dataset Requirements**
 
-*   Minimum two columns:
-    *   One categorical column
-    *   One numerical column
-*   This combination enables meaningful cluster formation
+    Minimum two columns:
+    - One categorical column
+    - One numerical column
+    This combination enables meaningful cluster formation
 
-1.  **Performance Metrics**
+2.  **Performance Metrics**
 
-*   Achieved Silhouette Score: ≥ 0.55
-*   This score indicates well-formed clusters with good separation
+    - Achieved Silhouette Score: ≥ 0.55
+    - This score indicates well-formed clusters with good separation
 
-1.  **Cluster Interpretation**
+3.  **Cluster Interpretation**
 
-*   Detailed analysis of cluster characteristics
-*   Data distribution within clusters
-*   Insights derived from clustering results
+    - Detailed analysis of cluster characteristics
+    - Data distribution within clusters
+    - Insights derived from clustering results
 
 ### Classification Stage
 
 1.  **Dataset**
+    - Uses labeled data from clustering results
+    - Labels from clustering serve as classification targets
 
-*   Uses labeled data from clustering results
-*   Labels from clustering serve as classification targets
-
-1.  **Model Performance**
-
-*   Minimum accuracy: 87% (both training and testing sets)
-*   Minimum F1-Score: 87% (both training and testing sets)
+2.  **Model Performance**
+    - Minimum accuracy: 87% (both training and testing sets)
+    - Minimum F1-Score: 87% (both training and testing sets)
 
 ## Dependencies
 
-*   Python 3.x
-*   Required libraries (sklearn, pandas, numpy, etc.)
-
-## How to Run
-
-1.  Open the clustering notebook
-2.  Follow the template structure and execute cells sequentially
-3.  Use clustering results to proceed with classification
-4.  Execute classification notebook following provided template
+    - Python 3.x
+    - Refer to the requirements.txt file for all required libraries.
 
 ## Project Status
 
 ✅ Completed
 
-*   Successfully implemented clustering analysis
-*   Achieved required Silhouette Score
-*   Completed classification with required accuracy metrics
-*   Detailed interpretations & recommendation for submission criteria provided
+    - Successfully implemented clustering analysis
+    - Achieved required Silhouette Score
+    - Completed classification with required accuracy metrics
+    - Detailed interpretations for project results
+    - Recommendation for future submission criteria provided
 
 ## License
 
