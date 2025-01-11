@@ -23,8 +23,13 @@ The analysis uses the "[Customer Shopping Dataset - Retail Sales Data](https://w
 
 ## Project Structure
 
-*   `clustering.ipynb`: Notebook for clustering analysis
-*   `classification.ipynb`: Notebook for classification analysis
+*   `clustering.ipynb`: Notebook for clustering analysis in Bahasa Indonesia
+*   `classification.ipynb`: Notebook for classification analysis in Bahasa Indonesia
+
+### Update: English Versions Available
+*   `clustering_en.ipynb`: English version of the clustering analysis notebook
+*   `classification_en.ipynb`: English version of the classification analysis notebook
+
 
 ## Requirements & Criteria
 
