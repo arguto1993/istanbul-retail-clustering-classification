@@ -1,4 +1,4 @@
-# Machine Learning Project: Clustering and Classification Analysis
+# Clustering and Classification Analysis for Istanbul Retail Sales
 
 ## Project Overview
 
